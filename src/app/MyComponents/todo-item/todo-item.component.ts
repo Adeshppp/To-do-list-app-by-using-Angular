@@ -8,9 +8,12 @@ import { Todo } from 'src/app/Todo';
   styleUrls: ['./todo-item.component.css']
 })
 export class TodoItemComponent implements OnInit {
-  @Input()
-  todo: Todo = new Todo;
+  @Input() todo: Todo = new Todo;
+  @Input() i: number;
+  
   @Output() todoDelete: EventEmitter<Todo> =new EventEmitter();
+  @Output() todoCheckbox: EventEmitter<Todo> =new EventEmitter();
+
   constructor() { }
 
   ngOnInit(): void {
@@ -18,5 +21,8 @@ export class TodoItemComponent implements OnInit {
   onClick(todo: Todo){
     this.todoDelete.emit(todo);
     console.log("onclick has been trioggered!!!")
+  }
+  onCheckboxClick(todo: Todo){
+    this.todoCheckbox.emit(todo);
   }
 }
