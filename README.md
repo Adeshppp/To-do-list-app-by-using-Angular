@@ -1,3 +1,10 @@
+# To-do-list-app-by-using-Angular
+This is an app, which would help individual to maintain task list. I have used Angular framework also HTML, TypeScript, CSS and Bootstrap framework to build this app.
+>>>>>>> f7d984a4d8ed910aa55fd4947fa5a27529efea55
+
+
+
+<<<<<<< HEAD
 # TodoList
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.6.
@@ -25,3 +32,4 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+=======
