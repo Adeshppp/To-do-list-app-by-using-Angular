@@ -10,7 +10,6 @@ export class TodosComponent implements OnInit {
   localItem : string | null;
   todos:Todo[];
   constructor() { 
-    // this.currentUser = JSON.parse(localStorage.getItem('currentUser') || '{}'); og
     // this.localItem = JSON.parse(localStorage.getItem('todos') || '{}');
     this.localItem = localStorage.getItem("todos");
     if(this.localItem == null){
