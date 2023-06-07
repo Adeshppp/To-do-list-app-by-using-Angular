@@ -3,7 +3,6 @@ This is an app, which would help individual to maintain task list. I have used A
 
 
 
-<<<<<<< HEAD
 # TodoList
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.6.
